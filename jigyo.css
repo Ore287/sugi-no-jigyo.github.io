@@ -1,0 +1,117 @@
+#theCreator{
+    background: linear-gradient(0.25turn,#dbf8fe,#ffffff,#dbf8fe,#e8e6fe,#ffffff ); 
+    /* background: linear-gradient(90deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(90deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(90deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+    margin: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+#motherSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+#Personal{
+    margin-left: 70px;
+    font-size: 20px;
+}
+#navigation{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.homeButton{
+    border: none;
+    background-color: transparent;
+    margin-right: 40px;
+    font-size: 11px;
+}
+#contactMe{
+    background: linear-gradient(RGB(251, 153, 46),
+    RGB(251, 155, 43),RGB(253, 184, 14));
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    font-size: 11px;
+    filter: drop-shadow(0mm 0.5mm 1mm orange);
+    height: 30px;
+}
+#intro{
+    font-size: 50px;
+    margin-top: 0px;
+}
+.moreIntro{
+    font-size: 12px;
+}
+#dude{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#introSec{
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;   
+    height: 450px;
+}
+.oreOmo{
+    color:orange;
+}
+#hireMe{
+    margin-top: 30px;
+    background: linear-gradient(RGB(251, 153, 46),
+    RGB(251, 155, 43),RGB(253, 184, 14));
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    font-size: 11px;
+    filter: drop-shadow(0mm 0.5mm 1mm orange);
+    height: 30px;
+    border: none;
+}
+
+#myServices{
+    margin-left: 170px;
+    margin-top: 170px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#firstPart{
+    display: flex;
+    flex-direction: column;
+}
+#downloadCV{
+    background: linear-gradient(RGB(251, 153, 46),
+    RGB(251, 155, 43),RGB(253, 184, 14));
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    font-size: 11px;
+    filter: drop-shadow(0mm 0.5mm 1mm orange);
+    height: 30px;
+    border: none;
+}
+.card{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 200px;
+    border-radius: 10px;
+}
+#cardSer{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 200px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
