@@ -13,6 +13,8 @@
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
+    border-bottom: tomato;
+    border-width: 10px;
 }
 #Personal{
     margin-left: 70px;
@@ -44,8 +46,14 @@
     font-size: 50px;
     margin-top: 0px;
 }
+#firstPart{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
 .moreIntro{
-    font-size: 12px;
+    font-size: 14px;
 }
 #dude{
     display: flex;
@@ -73,7 +81,18 @@
     height: 30px;
     border: none;
 }
-
+/* .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    #firstPart { grid-area: 1 / 1 / 3 / 3; }
+    #design { grid-area: 2 / 2 / 4 / 3; }
+    #developer { grid-area: 1 / 4 / 3 / 5; }
+    #ui { grid-area: 3 / 3 / 5 / 4; } */
 #myServices{
     margin-left: 170px;
     margin-top: 170px;
@@ -81,10 +100,7 @@
     display: flex;
     flex-direction: row;
 }
-#firstPart{
-    display: flex;
-    flex-direction: column;
-}
+
 #downloadCV{
     background: linear-gradient(RGB(251, 153, 46),
     RGB(251, 155, 43),RGB(253, 184, 14));
@@ -95,13 +111,24 @@
     filter: drop-shadow(0mm 0.5mm 1mm orange);
     height: 30px;
     border: none;
+    margin-top: 10px;
 }
 .card{
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    box-shadow: 0 4px 20px 0 rgb(214, 234, 237), 0 6px 20px 0 rgb(214, 234, 237);
     text-align: center;
     margin: 200px;
     border-radius: 10px;
+    height: 250px;
+    background-color: #f7feff;
+}
+.learnMore{
+    background-color: white;
+    color: #759ee5;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px 0 rgb(214, 234, 237), 0 6px 20px 0 rgb(214, 234, 237);
 }
 #cardSer{
     width: 300px;
@@ -112,6 +139,74 @@
     border-radius: 10px;
 }
 .icon{
-    height: 20px;
-    width: 20px;
+    height: 50px;
+    width: 50px;
+}
+#festworks{
+    font-size: 100px;
+}
+#showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navBut{
+    background: linear-gradient(RGB(251, 153, 46),
+    RGB(251, 155, 43),RGB(253, 184, 14));
+    width: 60px;
+    color: white;
+    border-radius: 25px;
+    font-size: 9px;
+    filter: drop-shadow(0mm 0.5mm 1mm orange);
+    height: 30px;
+    border: none;
+    margin: 5px;
+}
+.myWorks{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+footer{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#SM{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sM{
+    margin-right: 20px;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.jigyo{
+   color: white;
+   border-color: white;
+   background-color: black;
+   margin-right: 20px;
+   height: 37px;
+   width: 70px;
+   font-size: 15px;
+   border-radius: 7px;
+}
+.sM{
+    width: 50px;
+    height: 50px;
+}
+#copyright{
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
 }

@@ -9,42 +9,43 @@
 </head>
 <body>
     <section id="theCreator">
-    <section id="motherSection">
+    <header id="motherSection">
         <h3 id="Personal">Personal</h3>
-        <h3> <a href="google.com" id="Personal">Personal</a></h3>
         <section id="navigation">
-            <button class="homeButton">Home</button>
-            <button class="homeButton">About Me</button>
-            <button class="homeButton">Services</button>
-            <button class="homeButton" id="contactMe">Contact Me</button>
+            <button class="homeButton"><a href="/aboutME.html">Home</a></button>
+            <button id="aboutMe" class="homeButton"> <a href="/aboutME.html">About Me</a> </button>
+            <button class="homeButton"> <a href="/aboutME.html">Services</a></button>
+            <button class="homeButton" id="contactMe"><a href="/aboutME.html">Contact Me</a></button>
         </section>      
-    </section>
+    </header>
     <section id="dude">
     <section id="introSec">
         <h1 id="intro">Hi! I am <br> <span class="oreOmo">OreOmo Sosanya.</span></h1>
         <p class="moreIntro">I am a young entrepreneur, musician, and engineer in the making. My name is <br> OreOmo Sosanya and I am your new account manager at Marketing Solutions. </p>
         <button id="hireMe">Hire Me</button>
     </section>
-    <img src="./Images/dis_dude-removebg-preview.png" alt="">
+    <img src="./Images/developerimg.png" alt="">
     </section>
-    <section id="myServices">
+    <section class="parent">
+    <!-- <section id="myServices"> -->
         <section id="firstPart">
         <h1>My awesome <br><span class="oreOmo"> services</span></h1>
         <p class="moreIntro">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.<br> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
         <button id="downloadCV">Download CV</button>
         </section>
-        <section id="cardSer">
+        <section id="design" class="card">
             <section class="header">
                 <img class="icon" src="./Images/developer.png">
-                <h1>Developer</h1>
+                <h1>Design</h1>
             </section>
           
             <section class="container">
               <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
             </section>
+            <button class="learnMore">Learn More</button>
         </section>
-    </section>
-    <section class="card">
+    <!-- </section> -->
+    <section id="developer" class="card">
         <section class="header">
             <img class="icon" src="./Images/developer.png">
             <h1>Developer</h1>
@@ -53,23 +54,54 @@
         <section class="container">
           <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
         </section>
+        <button class="learnMore">Learn More</button>
     </section>
-    <section class="card">
+    <section id="ui"class="card">
         <section class="header">
             <img class="icon" src="./Images/developer.png">
-            <h1>Developer</h1>
+            <h1>UI/UX</h1>
         </section>
       
         <section class="container">
           <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
         </section>
-        </section>
+        <button class="learnMore">Learn More</button>
+    </section>
+    </section>
+         <!-- <section >
+                <h1 id="festWorks">Clients Always Get <span>Exceptional</span> Work From Me</h1>
+        </section> -->
         <section id="myWorks">
-            <section id="1stWorks">
-                <h1>Clients Always Get <span>Exceptional</span> Work From Me</h1>
+
+        </section>
+        <section id="showcase">
+            <section>
+                <button class="navBut">Next</button>
+                <button class="navBut">Prev</button> 
             </section>
+            <img class="myWorks"src="./Images/sampleAcademia.jpg">
+            <img class="myWorks"src="./Images/sampleConsentino.png">
+            <img class="myWorks" src="./Images/sampleWelcome.jpg">
+        </section>
+        <section>
 
         </section>
     </section>
+    <footer>
+        <section id="SM">
+            <img class="sM" src="./Images/ig logo.png">
+            <img class="sM" src="./Images/facebook.png">
+            <img class="sM" src="./Images/gmail.png">
+            <img class="sM" src="./Images/linkedin.png">
+            <img class="sM" src="./Images/twitter.png">
+        </section>
+        <h5>Personal Projects:</h5>
+        <section id="projects">
+            <button class="jigyo">Jigyo</button>
+            <button class="jigyo">Jigyo</button>
+        </section>
+        <h4>OreOmo Sosanya</h4>
+        <p id="copyright"> ©Copyright 2019-2021 <br>All rights reserved. Powered by my awesomeness and skill.</p>
+    </footer>
 </body>
 </html>
